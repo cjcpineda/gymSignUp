@@ -1,0 +1,22 @@
+{
+  "name": "gymsignup",
+  "version": "1.0.0",
+  "description": "Automate signing up for a limited spot class at my gym",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjcpineda/gymSignUp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjcpineda/gymSignUp/issues"
+  },
+  "homepage": "https://github.com/cjcpineda/gymSignUp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0"
+  }
+}
