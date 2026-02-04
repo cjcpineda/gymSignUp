@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Automate signing up for a limited spot class at my gym",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:debug": "playwright test --debug"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cjcpineda/gymSignUp.git"
@@ -17,6 +21,8 @@
   "homepage": "https://github.com/cjcpineda/gymSignUp#readme",
   "devDependencies": {
     "@playwright/test": "^1.58.1",
-    "@types/node": "^25.2.0"
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^25.2.0",
+    "dotenv": "^16.6.1"
   }
 }
